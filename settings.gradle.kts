@@ -1,6 +1,5 @@
 rootProject.name = "MyApplication"
 
-include(":androidApp")
 include(":shared")
 
 pluginManagement {

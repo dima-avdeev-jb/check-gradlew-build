@@ -6,6 +6,7 @@ plugins {
 
 kotlin {
     androidTarget()
+    jvm("workaround")
 
     iosX64()
     iosArm64()

@@ -6,7 +6,7 @@ plugins {
 
 kotlin {
     androidTarget()
-    jvm("workaround")
+//    jvm("workaround") // This line need to as workaround.
 
     iosX64()
     iosArm64()
@@ -18,8 +18,6 @@ kotlin {
                 implementation(compose.runtime)
                 implementation(compose.foundation)
                 implementation(compose.material)
-                @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
-                implementation(compose.components.resources)
             }
         }
         val androidMain by getting {

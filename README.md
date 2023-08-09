@@ -3,3 +3,7 @@ Reproduce interesting behavior of Issue: https://github.com/JetBrains/compose-mu
 Take a look at [build.gradle.kts](shared%2Fbuild.gradle.kts)
 
 `jvm("workaround")`
+
+```bash
+./gradlew :shared:compileCommonMainKotlinMetadata
+```
